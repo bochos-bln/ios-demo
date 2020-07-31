@@ -5,8 +5,9 @@
 // Created by Ringo Müller-Gromes on 31.07.20.
 // Copyright © 2020 Ringo Müller-Gromes. All rights reserved.
 // 
-
+#if canImport(SwiftUI)
 import SwiftUI
+#endif
 
 /// The Register Form Demo as SwiftUI
 @available(iOS 13.0, *)
@@ -35,7 +36,7 @@ struct RegisterView: View {
   }
 }
 
-@available(iOS 13.0.0, *)
+@available(iOS 13.0, *)
 struct RegisterView_Previews: PreviewProvider {
   static var previews: some View {
     RegisterView()

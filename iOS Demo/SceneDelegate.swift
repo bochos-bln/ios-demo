@@ -4,10 +4,12 @@
 //
 // Created by Ringo Müller-Gromes on 31.07.20.
 // Copyright © 2020 Ringo Müller-Gromes. All rights reserved.
-// 
+//
 
 import UIKit
+#if canImport(SwiftUI)
 import SwiftUI
+#endif
 
 @available(iOS 13.0, *)
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {

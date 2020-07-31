@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		005CF37A24D44954004D41DE /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 005CF37924D44954004D41DE /* SwiftUI.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		0061245124D40C7B000F4569 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0061245024D40C7B000F4569 /* AppDelegate.swift */; };
 		0061245324D40C7B000F4569 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0061245224D40C7B000F4569 /* SceneDelegate.swift */; };
 		0061245724D40C7E000F4569 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0061245624D40C7E000F4569 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		005CF37924D44954004D41DE /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 		0061244D24D40C7B000F4569 /* iOS Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0061245024D40C7B000F4569 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0061245224D40C7B000F4569 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,17 +44,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				005CF37A24D44954004D41DE /* SwiftUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		005CF37824D44953004D41DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				005CF37924D44954004D41DE /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		0061244424D40C7B000F4569 = {
 			isa = PBXGroup;
 			children = (
 				0061244F24D40C7B000F4569 /* iOS Demo */,
 				0061244E24D40C7B000F4569 /* Products */,
+				005CF37824D44953004D41DE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
