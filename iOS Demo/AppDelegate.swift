@@ -1,9 +1,9 @@
 //
 //
-// FILENAME
+// AppDelegate.swift
 //
 // Created by Ringo Müller-Gromes on 31.07.20.
-// Copyright © 2020 Ringo Müller-Gromes for "taz" digital newspaper. All rights reserved.
+// Copyright © 2020 Ringo Müller-Gromes. All rights reserved.
 // 
 
 import UIKit
