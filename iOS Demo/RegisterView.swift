@@ -20,7 +20,7 @@ struct RegisterView: View {
   
   var body: some View {
     VStack(spacing: 30) {
-      Text("Register Demo")
+      Text("Register Demo\nCurrent Locale: \(Locale.current.languageCode ?? "-")")
       TextField("e-mail", text: $mail)
         .textFieldStyle(RoundedBorderTextFieldStyle())
       SecureField("repeat pass", text: $pass2)

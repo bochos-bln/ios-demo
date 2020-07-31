@@ -58,7 +58,8 @@ class RegisterForm : UIView{
     passwordInput2.placeholder = "password repetition"
     nameInput.placeholder = "name"
     
-    label.text = "Register"
+    label.text = "Register\nCurrent Locale: \(Locale.current.languageCode ?? "-") "
+    label.numberOfLines = 2
     
     button.setTitle("Register", for: .normal)
     button.backgroundColor = .green

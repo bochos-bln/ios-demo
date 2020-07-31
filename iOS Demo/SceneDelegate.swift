@@ -28,7 +28,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     // Use a UIHostingController as window root view controller.
     if let windowScene = scene as? UIWindowScene {
       let window = UIWindow(windowScene: windowScene)
-      let useSwiftUI = true
+      let useSwiftUI = false
       if useSwiftUI {
         window.rootViewController = UIHostingController(rootView: RegisterView())
       } else {
