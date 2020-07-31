@@ -25,6 +25,7 @@ class LoginForm : UIView{
     usernameInput.layer.borderWidth = 0.5
     passwordInput.layer.borderWidth = 0.5
     
+//    passwordInput. = true
     passwordInput.textContentType = .password
     
     usernameInput.placeholder = "username"
