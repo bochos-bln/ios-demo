@@ -67,8 +67,9 @@ class RegisterForm : UIView{
     
     self.addSubview(label)
     self.addSubview(mailInput)
-    self.addSubview(passwordInput)
     self.addSubview(passwordInput2)
+    self.addSubview(passwordInput)
+  
     self.addSubview(nameInput)
     self.addSubview(button)
     
