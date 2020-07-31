@@ -16,6 +16,8 @@
 		0061246524D40CA6000F4569 /* LoginFormVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0061246424D40CA6000F4569 /* LoginFormVC.swift */; };
 		0061246724D40D0C000F4569 /* LoginForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0061246624D40D0C000F4569 /* LoginForm.swift */; };
 		0061246924D40E43000F4569 /* LayoutHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0061246824D40E43000F4569 /* LayoutHelper.swift */; };
+		006E17E324D414280092DC0D /* RegisterFormVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006E17E224D414280092DC0D /* RegisterFormVC.swift */; };
+		006E17E524D4143C0092DC0D /* RegisterForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006E17E424D4143C0092DC0D /* RegisterForm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		0061246424D40CA6000F4569 /* LoginFormVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFormVC.swift; sourceTree = "<group>"; };
 		0061246624D40D0C000F4569 /* LoginForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginForm.swift; sourceTree = "<group>"; };
 		0061246824D40E43000F4569 /* LayoutHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutHelper.swift; sourceTree = "<group>"; };
+		006E17E224D414280092DC0D /* RegisterFormVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterFormVC.swift; sourceTree = "<group>"; };
+		006E17E424D4143C0092DC0D /* RegisterForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterForm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +74,9 @@
 				0061245E24D40C7E000F4569 /* Info.plist */,
 				0061245824D40C7E000F4569 /* Preview Content */,
 				0061246424D40CA6000F4569 /* LoginFormVC.swift */,
+				006E17E224D414280092DC0D /* RegisterFormVC.swift */,
 				0061246624D40D0C000F4569 /* LoginForm.swift */,
+				006E17E424D4143C0092DC0D /* RegisterForm.swift */,
 				0061246824D40E43000F4569 /* LayoutHelper.swift */,
 			);
 			path = "iOS Demo";
@@ -160,6 +166,8 @@
 				0061245324D40C7B000F4569 /* SceneDelegate.swift in Sources */,
 				0061245524D40C7B000F4569 /* ContentView.swift in Sources */,
 				0061246524D40CA6000F4569 /* LoginFormVC.swift in Sources */,
+				006E17E524D4143C0092DC0D /* RegisterForm.swift in Sources */,
+				006E17E324D414280092DC0D /* RegisterFormVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

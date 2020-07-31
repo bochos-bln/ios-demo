@@ -8,13 +8,19 @@
 
 import UIKit
 
-
 class LoginFormVC: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
+    self.title = "Login"
     let contentView = LoginForm()
     self.view.addSubview(contentView)
     pin(contentView, toSafe: self.view, exclude: .bottom)
+    
+    contentView.button.addTarget(self, action: #selector(handleButtonTap), for: .touchUpInside)
+  }
+  
+  @objc func handleButtonTap(button:UIButton){
+    self.navigationController?.pushViewController(RegisterFormVC(), animated: true)
   }
   
 }
