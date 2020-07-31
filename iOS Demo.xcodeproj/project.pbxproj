@@ -13,6 +13,9 @@
 		0061245724D40C7E000F4569 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0061245624D40C7E000F4569 /* Assets.xcassets */; };
 		0061245A24D40C7E000F4569 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0061245924D40C7E000F4569 /* Preview Assets.xcassets */; };
 		0061245D24D40C7E000F4569 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0061245B24D40C7E000F4569 /* LaunchScreen.storyboard */; };
+		0061246524D40CA6000F4569 /* LoginFormVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0061246424D40CA6000F4569 /* LoginFormVC.swift */; };
+		0061246724D40D0C000F4569 /* LoginForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0061246624D40D0C000F4569 /* LoginForm.swift */; };
+		0061246924D40E43000F4569 /* LayoutHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0061246824D40E43000F4569 /* LayoutHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		0061245924D40C7E000F4569 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0061245C24D40C7E000F4569 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0061245E24D40C7E000F4569 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0061246424D40CA6000F4569 /* LoginFormVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFormVC.swift; sourceTree = "<group>"; };
+		0061246624D40D0C000F4569 /* LoginForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginForm.swift; sourceTree = "<group>"; };
+		0061246824D40E43000F4569 /* LayoutHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				0061245B24D40C7E000F4569 /* LaunchScreen.storyboard */,
 				0061245E24D40C7E000F4569 /* Info.plist */,
 				0061245824D40C7E000F4569 /* Preview Content */,
+				0061246424D40CA6000F4569 /* LoginFormVC.swift */,
+				0061246624D40D0C000F4569 /* LoginForm.swift */,
+				0061246824D40E43000F4569 /* LayoutHelper.swift */,
 			);
 			path = "iOS Demo";
 			sourceTree = "<group>";
@@ -145,9 +154,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0061246724D40D0C000F4569 /* LoginForm.swift in Sources */,
+				0061246924D40E43000F4569 /* LayoutHelper.swift in Sources */,
 				0061245124D40C7B000F4569 /* AppDelegate.swift in Sources */,
 				0061245324D40C7B000F4569 /* SceneDelegate.swift in Sources */,
 				0061245524D40C7B000F4569 /* ContentView.swift in Sources */,
+				0061246524D40CA6000F4569 /* LoginFormVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
